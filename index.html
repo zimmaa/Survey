@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  </head>
+  <body class ="bg-light py-3 py-lg-5">
+    <div class="container">
+      <div class="text-center">
+        <h1 class="display-4">Survey Name</h1>
+        <p class="lead">Subtitle for the Survey Name</p>
+      </div>
+      <ul class="nav nav-tabs nav-justified" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button type="button"  class="nav-link w-100 h4 mb-0 active" id="step-1-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Step1</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button type="button" class="nav-link w-100 h4 mb-0" id="step-2-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Step2</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button type="button" class="nav-link w-100 h4 mb-0" id="step-3-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Step3</button>
+        </li>
+        
+      </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active " id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+        <div class="sex">Sex:</div>
+        <form class="row g-3">
+          <div class="col-md-4">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+              <label class="form-check-label" for="inlineRadio1">Male</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+              <label class="form-check-label" for="inlineRadio2">Female</label>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <label for="inputEmail4" class="form-label">Age:</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-md-4">
+            <label for="inputPassword4" class="form-label">Phone</label>
+            <input type="password" class="form-control" id="inputPassword4">
+          </div>
+          <hr class="my-4">
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Name</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <hr class="my-4">
+          <div class="col-md-6">
+            <label for="inputAddress" class="form-label">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+          </div>
+          <div class="col-md-6">
+            <label for="inputAddress" class="form-label">Apartment or floor</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+          </div>
+          <hr class="my-4">
+          <div class="col-md-4">
+            <label for="inputAddress" class="form-label">City</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+          </div>
+          <div class="col-md-4">
+            <label for="inputAddress" class="form-label">Zip</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+          </div>
+          <div class="col-md-4">
+            <label for="inputAddress" class="form-label">Country:</label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Open this select menu</option>
+              <option value="1">Russia</option>
+              <option value="2">Germany</option>
+              <option value="3">Spain</option>
+            </select>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-secondary d-block ms-auto">Submit</button>
+          </div>
+        </form>
+      </div>
+
+
+
+
+
+
+
+
+
+      <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+        <form class="row">
+          <div class="text-center">
+            <p class="lead">Subtitle for the Survey Name</p>
+          </div>
+          <div class="col-md-6">
+            <figure class="figure">
+              <img src="img\1600x900.png" class="figure-img img-fluid rounded" alt="...">
+              <figcaption class="figure-caption">A caption for the above image.</figcaption>
+            </figure>
+          </div>
+          <div class="col-md-6">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Default radio
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+              <label class="form-check-label" for="flexRadioDefault2">
+                Default checked radio
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Default radio
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+              <label class="form-check-label" for="flexRadioDefault2">
+                Default checked radio
+              </label>
+            </div>
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              <input text="type" placeholder="Other">
+           </label>
+          </div>
+          <hr class="my-4">
+
+          <div class="text-center">
+            <p class="lead">Subtitle for the Survey Name</p>
+          </div>
+          <div class="col-md-6">
+            <figure class="figure">
+              <img src="img\1600x900.png" class="figure-img img-fluid rounded" alt="...">
+              <figcaption class="figure-caption">A caption for the above image.</figcaption>
+            </figure>
+          </div>
+          <div class="col-md-6">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Default radio
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+              <label class="form-check-label" for="flexRadioDefault2">
+                Default checked radio
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Default radio
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+              <label class="form-check-label" for="flexRadioDefault2">
+                Default checked radio
+              </label>
+            </div>
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              <input text="type" placeholder="Other">
+           </label>
+          </div>
+          <hr class="my-4">
+
+          <div class="text-center">
+            <p class="lead">Subtitle for the Survey Name</p>
+          </div>
+          <div class="col-md-6">
+            <figure class="figure">
+              <img src="img\1600x900.png" class="figure-img img-fluid rounded" alt="...">
+              <figcaption class="figure-caption">A caption for the above image.</figcaption>
+            </figure>
+          </div>
+          <div class="col-md-6">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Default radio
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+              <label class="form-check-label" for="flexRadioDefault2">
+                Default checked radio
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Default radio
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+              <label class="form-check-label" for="flexRadioDefault2">
+                Default checked radio
+              </label>
+            </div>
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              <input text="type" placeholder="Other">
+           </label>
+          </div>
+          <hr class="my-4">
+
+          <div class="text-center">
+            <p class="lead">Subtitle for the Survey Name</p>
+          </div>
+          <div class="col-md-6">
+            <figure class="figure">
+              <img src="img\1600x900.png" class="figure-img img-fluid rounded" alt="...">
+              <figcaption class="figure-caption">A caption for the above image.</figcaption>
+            </figure>
+          </div>
+          <div class="col-md-6">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Default radio
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+              <label class="form-check-label" for="flexRadioDefault2">
+                Default checked radio
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Default radio
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+              <label class="form-check-label" for="flexRadioDefault2">
+                Default checked radio
+              </label>
+            </div>
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              <input text="type" placeholder="Other">
+           </label>
+          </div>
+          <hr class="my-4">
+
+      </form>
+      
+      </div>
+      <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+        <form class="row g-3">
+          <div class="col-md-6">
+              <p class="lead">Question #5: Lorem ipsum dolor sit amet, consectetur adipiscing elit?<br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada semper velit, id condimentum dui aliquet non.
+                </p>
+          </div>
+          <div class="col-md-6">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+              <label class="form-check-label" for="inlineRadio1">1</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+              <label class="form-check-label" for="inlineRadio2">2</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+              <label class="form-check-label" for="inlineRadio1">3</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+              <label class="form-check-label" for="inlineRadio2">4</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+              <label class="form-check-label" for="inlineRadio1">5</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+              <label class="form-check-label" for="inlineRadio2">n/a</label>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"></label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+          </div>
+          <hr class="my-4">
+          <div class="col-md-6">
+            <p class="lead">Question #5: Lorem ipsum dolor sit amet, consectetur adipiscing elit?<br>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada semper velit, id condimentum dui aliquet non.
+              </p>
+        </div>
+        <div class="col-md-6">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1">1</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">2</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1">3</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">4</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1">5</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">n/a</label>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"></label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        </div>
+        <hr class="my-4">
+        <div class="col-md-6">
+          <p class="lead">Question #5: Lorem ipsum dolor sit amet, consectetur adipiscing elit?<br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada semper velit, id condimentum dui aliquet non.
+            </p>
+      </div>
+      <div class="col-md-6">
+        <div class="input-group mb-3">
+          <button class="btn btn-outline-secondary" type="button">1</button>
+          <button class="btn btn-outline-secondary" type="button">2</button>
+          <button class="btn btn-outline-secondary" type="button">3</button>
+          <button class="btn btn-outline-secondary" type="button">4</button>
+          <button class="btn btn-outline-secondary" type="button">5</button>
+      </div>
+        </form>
+      </div>
+    </div>
+  </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
